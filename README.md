@@ -1,36 +1,23 @@
-# Bash Automation Scripts
+# Bash Automation Scripts (DevOps Project)
 
-This project contains Bash scripts to automate common DevOps and system administration tasks.
+## Overview
+This project automates common Linux administrative tasks using Bash scripting.
 
-## Scripts included
+## Features
+- Automated log cleanup
+- Automated backups
+- Disk usage monitoring
+- System update automation
+- Cron job scheduling
 
-### 1. cleanup_logs.sh
-Deletes log files older than 7 days.
-
-### 2. backup.sh
-Creates compressed backup of logs folder.
-
-### 3. system_update.sh
-Updates and upgrades system packages.
-
-### 4. disk_monitor.sh
-Checks disk usage and warns if usage exceeds threshold.
-
-## How to run
-
-Make executable:
-
-chmod +x scriptname.sh
-
-Run:
-
-./scriptname.sh
-
-## Technologies used
-
+## Technologies Used
 - Bash
 - Linux
-- Shell scripting
+- Cron
+- Git
+
+## Automation
+Runs automatically using cron jobs.
 
 ## Author
 Sreya Vallamsetla
